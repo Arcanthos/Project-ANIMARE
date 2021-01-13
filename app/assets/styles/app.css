@@ -1,0 +1,5 @@
+@import "~@tailwindcss/postcss7-compat/base.css";
+
+@import "~@tailwindcss/postcss7-compat/components.css";
+
+@import "~@tailwindcss/postcss7-compat/utilities.css";
