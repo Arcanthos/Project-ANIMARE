@@ -3,68 +3,81 @@
 {% block title %}La sacoche{% endblock %}
 
 {% block body %}
-{% block nav %}
-    <section>
-        <nav class="bg-blue-900 shadow">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
-                <div class="flex items-center justify-between h-16 ">
-                    <div class="flex items-center">
-                        <div class="flex-shrink-0">
-                            <!-- TODO : add logo here -->
-                        </div>
-                        <div class="">
-                            <div class="flex items-baseline md:space-x-4">
-                                <a href="#"
-                                   class="text-yellow-400 hover:bg-yellow-300 hover:text-white px-3 py-2 rounded-md text-md font-normal">Accueil</a>
 
-                                <a href="#"
-                                   class="text-yellow-400 hover:bg-yellow-300 hover:text-white px-3 py-2 rounded-md text-md font-normal">Ressources
-                                    gratuites</a>
+    <div class="grid grid-cols-1">
+        <section>
+            <nav class="bg-blue-200 ">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 rounded-md">
+                    <div class="flex items-center justify-between h-16 ">
+                        <div class="flex items-center">
+                            <div class="flex-shrink-0">
+                                <!-- TODO : add logo here -->
+                            </div>
+                            <div class="">
+                                <div class="flex items-baseline md:space-x-4">
+                                    <a href="#"
+                                       class="text-white hover:text-yellow-400 px-3 py-2 rounded-md text-md font-bold">Espace
+                                        Membre</a>
 
-                                <a href="#"
-                                   class="text-yellow-400 hover:bg-yellow-300 hover:text-white px-3 py-2 rounded-md text-md font-normal">Magasin</a>
+                                    <a href="#"
+                                       class="text-white hover:text-yellow-400  px-3 py-2 rounded-md text-md font-bold">Ressources
+                                        gratuites</a>
 
-                                <a href="#"
-                                   class="text-yellow-400 hover:bg-yellow-300 hover:text-white px-3 py-2 rounded-md text-md font-normal">Espace
-                                    Membre</a>
+                                    <a href="#"
+                                       class="text-white hover:text-yellow-400  px-3 py-2 rounded-md text-md font-bold">Magasin</a>
 
-                                <a href="#"
-                                   class="text-yellow-400 hover:bg-yellow-300 hover:text-white px-3 py-2 rounded-md text-md font-normal">Espace
-                                    Administrateur</a>
+
+                                    <a href="#"
+                                       class="text-white hover:text-yellow-400 px-3 py-2 rounded-md text-md font-bold">Espace
+                                        Administrateur</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="hidden md:block">
-                        <button class="px-3 py-2 mx-1 rounded-md text-sm text-yellow-400   border-blue-900 border-2 font-bold uppercase tracking-wide hover:bg-yellow-400">
-                            Se Connecter
-                        </button>
-                        <button class="px-3 py-2 ml-1 rounded-md text-sm text-white font-bold bg-red-400 border-red-400  uppercase tracking-wide">
-                            S'inscrire
-                        </button>
+                        <div class="hidden md:block">
+                            <button class="px-3 py-2 mx-1 text-sm text-blue-900   font-bold uppercase tracking-wide hover:bg-yellow-400">
+                                Se Connecter
+                            </button>
+                            <button class="px-3 py-2 ml-1  text-sm text-white font-bold bg-red-400 border-red-400  uppercase tracking-wide">
+                                S'inscrire
+                            </button>
+                        </div>
                     </div>
                 </div>
+            </nav>
+        </section>
+
+        <section>
+            <div class="bg-blue-200
+            h-96 px-2 sm:px-6  flex flex-col items-center justify-center ">
+                <h1 class="text-white text-4xl tracking-wide max-w-4xl">Une fiche de grande animation premium dans ta boite mail gratuitement!</h1>
+                <form class="flex h-24">
+                    <div class="flex items-center placeholder-gray-400 ">
+                        <label>
+                            <input class="px-6 text-lg w-96 h-10 " type="text"
+                                   placeholder="Ta meilleure adresse mail :) ">
+                        </label>
+                    </div>
+
+                    <div class=" flex items-center justify-start ">
+                        <button class=" h-10 px-3 py-2 mx-2  text-sm text-blue-900 font-bold bg-yellow-400  uppercase tracking-wide"
+                                type="submit">C'est Parti !
+                        </button>
+                    </div>
+                </form>
+
             </div>
-        </nav>
-    </section>
-{% endblock %}
-{% block hero %}
-    <section>
-        <img src="heroBanner.svg.twig" alt="Hero Banner - ">
+        </section>
 
-    </section>
-{% endblock %}
+        <div id="pricingtable">
 
+        </div>
 
+        <div id="offerResume">
 
-    <div id="pricingtable">
+        </div>
 
-    </div>
+        <div id="mainFooter">
 
-    <div id="offerResume">
-
-    </div>
-
-    <div id="mainFooter">
-
+        </div>
     </div>
 {% endblock %}
