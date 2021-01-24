@@ -33,7 +33,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="hidden md:block">
+                        <div class="hidden sm:block">
                             <button class="px-3 py-2 mx-1 text-sm text-blue-900   font-bold uppercase tracking-wide hover:bg-yellow-400">
                                 Se Connecter
                             </button>
@@ -69,7 +69,7 @@
         </section>
 
         <section>
-        <div class="flex flex-col items-center justify-center mt-8 bg-white">
+        <div class="flex flex-col items-center justify-center my-24 bg-white">
             <h2 class="text-blue-900 text-justify text-2xl max-w-4xl"><span class="uppercase font-bold hover:text-yellow-400">La Sacoche™</span> propose des animations originales clé en main! </h2>
             <p class="text-gray-500 text-justify text-sm max-w-2xl pt-4 ">Notre mission est de proposer à tous les animateurs et animatrices des fiches d'animations et de grands jeux.
                 Chez La Sacoche™ nous sommes conscients des difficultés que les animateurs rencontrent au quotidien et du peu de temps disponible pour la préparation de grandes animations
@@ -80,37 +80,59 @@
                 <h3 class="text-blue-900  text-center text-justify text-2xl max-w-4xl font-bold"> Choisissez la solution qui vous correspond</h3>
             </div>
         <div id="pricingtable" class="h-96 grid xl:grid-cols-5 grid-cols-3 gap-4 my-8">
-            <div id="priceCard1" class="xl:col-start-2 w-full h-3/4 bg-white text-blue-900 rounded shadow-xl self-center p-8 flex flex-col " >
-                <h4 class="text-xl font-bold">Les meilleurs conseils</h4>
-                <p class="text-sm">C'est gratuit :)</p>
-                <h5 class="text-3xl font-bold">0€</h5>
-                <ul>
-                    <li>l'accès offert aux emails privés</li>
-                    <li></li>
-                </ul>
-                <button class="px-3 py-2  text-white text-sm bg-blue-900 font-bold justify-self-end align-baseline
-                ">je veux améliorer mes animations</button>
+            <div id="priceCard1" class="xl:col-start-2 w-full h-3/4 bg-white text-blue-900 rounded shadow-xl self-center p-8 flex flex-col  space-y-2" >
+                <div class="">
+                    <h4 class="text-xl font-bold">Les meilleurs conseils</h4>
+                    <p class="text-xs">C'est gratuit :)</p>
+                </div>
+                <div class="">
+                    <h5 class="text-3xl font-bold ">0€</h5>
+                </div>
+               <div class="flex-auto">
+                   <ul>
+                       <li><i class="fas fa-check-circle"></i> l'accès offert aux emails privés</li>
+                   </ul>
+               </div>
+                <div >
+                    <button class="px-3 py-2  text-white text-sm bg-blue-900 font-bold justify-self-end align-baseline
+                 w-full mt-4">je veux améliorer mes animations</button>
+                </div>
             </div>
-            <div id="priceCard2" class="xl:col-start-3 w-full h-5/6 bg-yellow-400 text-blue-900 rounded shadow-xl self-center p-8 ">
-                <h4 class="text-xl font-bold">L'abonnement sur mesure</h4>
-                <p class="text-sm"> C'est sans engagement</p>
-                <h5 class="text-3xl font-bold">9€/mois</h5>
-                <ul>
-                    <li>un accès aux emails privés</li>
-                    <li>1 nouvelle fiche d'activité premium/semaine</li>
-
-                </ul>
-                <button class="px-3 py-2 text-yellow-400 text-sm bg-blue-900 font-bold inline-block ">je m'abonne pour recevoir des animations uniques</button>
+            <div id="priceCard2" class="xl:col-start-3 w-full h-5/6 bg-yellow-400 text-blue-900 rounded shadow-xl self-center p-8 flex flex-col space-y-2 ">
+                <div>
+                    <h4 class="text-xl font-bold">L'abonnement sur mesure</h4>
+                    <p class="text-xs"> C'est sans engagement</p>
+                </div>
+                <div>
+                    <h5 class="text-3xl font-bold ">9€/mois</h5>
+                </div>
+                <div class="flex-auto">
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> un accès aux emails privés</li>
+                        <li><i class="fas fa-check-circle"></i> 1 nouvelle fiche d'activité premium/semaine</li>
+                    </ul>
+                </div>
+                <div>
+                    <button class="px-3 py-2 text-yellow-400 text-sm bg-blue-900 font-bold inline-block w-full ">je m'abonne pour recevoir des animations uniques</button>
+                </div>
             </div>
-            <div id="priceCard3" class="xl:col-start-4 w-full h-3/4 bg-red-400 text-white rounded shadow-xl self-center p-8 ">
-                <h4 class="text-xl font-bold">Accès à vie</h4>
-                <p class="text-sm">Pour ne plus jamais être à cour d'idée</p>
-                <h5 class="text-3xl font-bold">89€</h5>
-                <ul>
-                    <li>un accès aux emails privés</li>
-                    <li>un accès illimité à tout le contenu de La Sacoche™</li>
-                </ul>
-                <button class="px-3 py-2 text-red-400 text-sm bg-white font-bold ">je veux toutes les fiches</button>
+            <div id="priceCard3" class="xl:col-start-4 w-full h-3/4 bg-red-400 text-white rounded shadow-xl self-center p-8 flex flex-col space-y-2">
+                <div>
+                    <h4 class="text-xl font-bold">Accès à vie</h4>
+                    <p class="text-xs">Pour ne plus jamais être à cour d'idée</p>
+                </div>
+                <div>
+                    <h5 class="text-3xl font-bold ">89€</h5>
+                </div>
+                <div class="flex-auto">
+                    <ul >
+                        <li><i class="fas fa-check-circle"></i> un accès aux emails privés</li>
+                        <li><i class="fas fa-check-circle"></i> un accès illimité à tout le contenu de La Sacoche™</li>
+                    </ul>
+                </div>
+                <div>
+                    <button class="px-3 py-2 text-red-400 text-sm bg-white font-bold  w-full">je veux toutes les fiches</button>
+                </div>
             </div>
         </div>
         </section>
